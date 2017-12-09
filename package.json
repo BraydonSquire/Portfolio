@@ -1,11 +1,12 @@
 {
-    "name": "Portfolio",
-    "version": "0.1.0",
-    "private": true,
-    "dependencies": {
-      "body-parser": "^1.18.2",
-      "express": "^4.16.2"
-    },
-    "main": "./server/server.js",
-    "proxy": "http://localhost:3001"
-  }
+  "name": "Portfolio",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "live-server": "^1.2.0"
+  },
+  "main": "./server/server.js",
+  "proxy": "http://localhost:3001"
+}
